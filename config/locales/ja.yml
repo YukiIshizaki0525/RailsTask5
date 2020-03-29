@@ -1,0 +1,14 @@
+# Tabで字下げするとErrorになるため半角スペースで調整する
+# モデルや属性の名前を変更する
+ja:
+  activerecord:
+    models:
+      user: 'ユーザー'
+      # コメントと管理者タブの追加
+      comment: 'コメント'
+      admin_user: '管理者'
+    attributes:
+      user:
+        name: '名前'
+        age: '年齢'
+        address: '住所'
